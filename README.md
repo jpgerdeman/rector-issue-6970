@@ -1,0 +1,1 @@
+# rector-issue-6970
