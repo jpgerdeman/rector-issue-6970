@@ -4,5 +4,6 @@ jobs:
   run-rector:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: php-actions/composer@v6
       - run: php vendor/bin/rector
