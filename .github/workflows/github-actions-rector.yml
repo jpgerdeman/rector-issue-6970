@@ -1,4 +1,4 @@
-me: rector error
+name: rector error
 on: [push]
 jobs:
   run-rector:
