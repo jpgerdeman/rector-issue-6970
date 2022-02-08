@@ -1,0 +1,8 @@
+me: rector error
+on: [push]
+jobs:
+  run-rector:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: php-actions/composer@v6
+      - run: php vendor/bin/rector
